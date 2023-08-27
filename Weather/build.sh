@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 py -m venv myenvt
-source env/bin/activate
+source myenvt/bin/activate
 
 set -o errexit
 pip3 install -r requirements.txt
