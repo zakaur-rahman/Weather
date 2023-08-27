@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-venv\Scripts\activate
+virtualenv venv
+source venv/bin/activate
 
 set -o errexit
 pip3 install -r requirements.txt
