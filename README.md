@@ -67,4 +67,3 @@ The Weather App project is a web application that allows users to search for and
 9. **Testing and Development:**
    Test your Weather App by entering different locations and checking if the weather information is displayed correctly. Make necessary adjustments to the UI and functionality as needed.
 
-Remember that this is a simplified guide, and actual implementation might involve additional steps or considerations based on your project's specific requirements and design.
