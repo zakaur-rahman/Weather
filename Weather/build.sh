@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 python3 -m venv myenvt
 source myenvt/bin/activate
