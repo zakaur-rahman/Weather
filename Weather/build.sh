@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-python3 -m venv myenvt
-source myenvt/bin/activate
+venv\Scripts\activate
 
 set -o errexit
 pip3 install -r requirements.txt
