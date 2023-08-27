@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 py -m venv myenvt
 source myenvt/bin/activate
