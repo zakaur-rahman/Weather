@@ -23,5 +23,4 @@ def get_weather(request):
 
         return JsonResponse(weather_data)
     except Exception as e:
-        # return JsonResponse({"error": response["error"]["message"]}, status=500)
         return JsonResponse({"error": response_data["message"]}, status=500)
