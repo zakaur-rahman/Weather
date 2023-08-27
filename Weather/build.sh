@@ -1,6 +1,6 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-py -m venv myenvt
+python3 -m venv myenvt
 source myenvt/bin/activate
 
 set -o errexit
