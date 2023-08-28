@@ -19,7 +19,7 @@ def get_weather(request):
         
         print(response_data)
         
-        weather_data = {"condition":response_data["weather"][0]["main"], "temp":celsius(response_data["main"]["temp"]), "feelslike": celsius(response_data["main"]["feels_like"]), "humidity":response_data["main"]["humidity"], "city":response_data["name"], "country":response_data["sys"]["country"]}
+        weather_data = {"condition":response_data["weather"][0]["main"], "temp":celsius(response_data["main"]["temp"]), "feelslike": celsius(response_data["main"]["feels_like"]), "humidity":response_data["main"]["humidity"], "city":response_data["name"], "country":response_data["sys"]["country"],"description":response_data["weather"][0]["description"]}
 
         return JsonResponse(weather_data)
     except Exception as e:
